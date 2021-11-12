@@ -1,0 +1,19 @@
+{
+  "name": "mi_repositorio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezegon2/mi-repositorio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezegon2/mi-repositorio/issues"
+  },
+  "homepage": "https://github.com/ezegon2/mi-repositorio#readme"
+}
