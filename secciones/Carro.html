@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carro</title>
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
 </head>
 
 <body>
     <header>
-        <img src="https://restingagin.com/wp-content/uploads/head-cocktails.jpg" alt="imgbanner" id="banner-estilo">
+        <img src="https://restingagin.com/wp-content/uploads/head-cocktails.jpg" alt="imgbanner" width=100% height=40% id="banner-estilo">
         <nav>
             <ul class="estilo-nav">
                 <li>
@@ -36,21 +37,25 @@
         </div>
     </header>
     <main>
+        <form>
+            <div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Carrito</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Carrito">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Pre-compra</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Pre-compra">
+                </div>
+            </div>
+        </form>
         <div>
             <div>
-                <button>Carrito</button>
+               <button class="botones__carro">Comprar</button>
             </div>
             <div>
-                <button>Guardado</button>
+                <button class="botones__carro">Cerrar Carro</button>
             </div>
-        </div>
-        <div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias nostrum, mollitia numquam vitae
-                incidunt, voluptatibus nulla sint totam voluptatem aperiam quibusdam maxime, repellendus ducimus harum
-                accusantium fuga! Commodi, consequuntur id?</p>
-        </div>
-        <div>
-            <h5>Precompra</h5> <!-- En este espacio va un formulario  -->
         </div>
     </main>
     <footer>
@@ -93,6 +98,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
